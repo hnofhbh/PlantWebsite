@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href="./output.css" rel="stylesheet">
+  
+</head>
+<body>
+<nav class="container mx-auto" >
+  <div class="flex items-center justify-between">
+    <div><img src="logo (1).png" alt="logo" width="200px"></div>
+    <div class="hidden md:flex space-x-6 ">
+        <a href="#" class="text-red-700 hover:text-yellow-600">Home</a>
+        <a href="#" class="text-red-700 hover:text-yellow-600">About</a>
+        <a href="#" class="text-red-700  hover:text-yellow-600">Foods</a>
+        <a href="#" class="text-red-700  hover:text-yellow-600">Contact</a>
+       
+
+    </div>
+  </div>
+</nav>
+
+<section id="hero">
+    <div class="imgs relative w-full h-64 md:h-80 lg:h96 flex items-center justify-center bg-blue-400">
+        <div class="absolute inset-0">
+            <img src="bg.jpg" alt="img2"  class="w-full h-full object-cover opacity-80">
+            <!--serch -->
+ <!-- مربع البحث  -->
+ <div class="absolute inset-0 flex items-center justify-center">
+    <div class="bg-white p-2 shadow-lg flex w-4/5 md:w-2/3 lg:w-1/2">
+        <input type="text" placeholder="Search for Foods..." 
+               class="px-4 py-2 w-full outline-none ">
+        
+    </div>
+    <button class="bg-red-500 text-white px-6 py-2 rounded-md space-x-10">Search</button>
+        </div>
+       
+    </div>
+</section>
+
+<!-- Explore Foods-->
+
+<!-- Explore Foods Section -->
+<section class="py-12 text-center">
+    <h2 class="text-3xl font-semibold mb-8">Explore Foods</h2>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+        <!-- Card 1: Pizza -->
+        <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-full h-72 object-cover" />
+            <div class="absolute bottom-2 left-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded">
+                Pizza
+            </div>
+        </div>
+
+        <!-- Card 2: Burger -->
+        <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-full h-72 object-cover" />
+            <div class="absolute bottom-2 left-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded">
+                Burger
+            </div>
+        </div>
+
+        <!-- Card 3: Momo -->
+        <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/5409009/pexels-photo-5409009.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-full h-72 object-cover" />
+            <div class="absolute bottom-2 left-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded">
+                Momo
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--food menu-->
+  <!-- Food Menu Section -->
+  <section class="py-12 bg-gray-200">
+    <h2 class="text-3xl font-semibold text-center mb-8">Food Menu</h2>
+
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+        <!-- Food Item 1 -->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        </div>
+
+        <!-- Food Item 2 -->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        </div>
+
+        <!-- Food Item 3 -->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        </div>
+        <!--img-->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        
+        </div>
+
+
+
+
+
+        <!-- Food Item 4 -->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        
+        </div>
+        <!-- Food Item 5 -->
+        <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-4">
+            <img src="https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&w=400" class="w-16 h-16 rounded-lg" />
+            <div>
+                <h3 class="text-lg font-bold">Food Title</h3>
+                <p class="text-gray-600">$2.3</p>
+                <p class="text-sm text-gray-500">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                <button class="bg-red-500 text-white px-4 py-1 mt-2 rounded">Order Now</button>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- See All Foods -->
+    <p class="text-center text-red-500 mt-6 cursor-pointer">See all Foods</p>
+
+   <!-- Footer --> 
+<footer class="bg-white py-6 text-center text-gray-600 mt-8"> 
+    <div class="flex justify-center space-x-4 mb-4"> 
+        <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/128/20/20837.png" alt="Facebook" class="w-8 h-8">
+        </a> 
+        <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="Twitter" class="w-8 h-8">
+        </a> 
+        <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/128/3661/3661391.png" alt="Twitter" class="w-8 h-8">
+        </a> 
+    </div> 
+    <p>All rights reserved. Designed by <span class="text-red-500">Vijay Thapa.</span></p> 
+</footer>
+<!--h-->
+
+       
+</section>
+
+</body>
+</html>
